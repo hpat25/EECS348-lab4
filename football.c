@@ -18,7 +18,7 @@ int main() {
                                 int total_score=touchdown_2*8+touchdown_1*7+touchdown*6+field_goal*3+safety_worth*2;
 
                                 if (total_score==score) {
-                                    printf("%d TD+2pt, %d TD+FG, %d TD, %d 3pt FG, %d safety\n", touchdown_2,touchdown_1, touchdown,field_goal,safety_worth);
+                                    printf("%d TD + 2pt, %d TD + FG, %d TD, %d 3pt FG, %d Safety\n", touchdown_2,touchdown_1, touchdown,field_goal,safety_worth);
                                 }
                             } 
                         }                 
